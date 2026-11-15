@@ -16,7 +16,7 @@ fee from another source without Fah's explicit approval.
   display-only — see the honest-caveats section).
 - **Payout wallet:** `0x4d354625102352c7ebe02d4fe08eec1146eeec10`
 - **PoC repo:** https://github.com/Anyeps/sky-phantom-option-vote-poc
-  — verified from a fresh clone at commit `TBD`: `forge install`
+  — verified from a fresh clone at commit `04a07d910b4cd66535c9dadecb6a68d6d37855b7`: `forge install`
   (pinned forge-std v1.17.0) + `forge test --fork-url
   https://arbitrum-one.publicnode.com` → **8 passed, 0 failed**; vitest
   tally spec → **5 passed, 0 failed** (+ #82775 regression **3/3**).
